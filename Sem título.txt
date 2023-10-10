@@ -1,0 +1,2 @@
+atributo  'defer' deixa  que meus arquivo carregue após o meu HTML . Pois com esse atributo no caso posso colocar meu script antes do meu body .
+________________________________________________________________________________________________________________________
