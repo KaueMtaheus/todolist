@@ -1,0 +1,16 @@
+/*Geral*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    /*inputs nao passar a largura maxima*/
+    box-sizing: border-box;  
+}
+
+body {
+    background: url(/arquivos/img/europe-7128531_1280.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
