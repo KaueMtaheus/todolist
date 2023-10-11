@@ -37,6 +37,8 @@
                     <i class="fa-solid fa-check-double"></i>
                 </button>
             </div>
+            <!--Cancela a edição-->
+            <button id="cancel-edit-btn">Cancelar</button>
         </form>
         <!--Barra de ferramentas-pesquisa e meu filtro-->
         <div id="toolbar">
@@ -46,11 +48,54 @@
                 <form>
                     <!--busca das tarefas-->
                     <input type="text" id="search-input" placeholder="Buscar">
-                    <!--Apaga oque o usario digita-->
+                    <!--Apaga o que o usario digitou-->
                     <button id="erase-button">
-
+                        <i class="fa-solid fa-delete-left"></i>
                     </button>
                 </form>
+            </div>
+            <!--Filtro--->
+            <div id="filter">
+                <h4>Filtrar:</h4>
+                <!---seleção/ opção--->
+                <select id="filter-select">
+                    <option value="all">Todos</option>
+                    <option value="done">Feitos</option>
+                    <option value="todo">A fazer</option>
+                </select>
+            </div>
+        </div>
+        <!--Tarefas--->
+        <div id="todo-list">
+            <div class="todo">
+                <h3>Estou fazendo as coisas..</h3>
+                <!--Finaliza tarefa-->
+                <button class="finish-todo">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+                <!----Edita a tarefa-->
+                <button class="edit-todo">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <!---Remove a tarefa-->
+                <button class="remove-todo">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="todo">
+                <h3>Estudar java Script</h3>
+                <!--Finaliza tarefa-->
+                <button class="finish-todo">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+                <!----Edita a tarefa-->
+                <button class="edit-todo">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <!---Remove a tarefa-->
+                <button class="remove-todo">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
             </div>
         </div>
     </div>
