@@ -1,5 +1,5 @@
 # TodoList Avançado
-Este projeto consiste em um TodoList avançado desenvolvido utilizando HTML, CSS e JavaScript. Ele permite adicionar, editar, remover tarefas, além de filtrar por status e pesquisar tarefas específicas.
+Este projeto consiste em um TodoList simples desenvolvido utilizando HTML, CSS e JavaScript. Ele permite adicionar, editar, remover tarefas, além de filtrar por status e pesquisar tarefas específicas.
 
 ## Funcionalidades
 
