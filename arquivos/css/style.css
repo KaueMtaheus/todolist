@@ -1,24 +1,58 @@
-     /* Geral */
+/* Geral */
+
 * {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: #000000;
+    color: #ffffff;
     /*inputs nao passar a largura maxima*/
     box-sizing: border-box;  
 }
 
+
+
+
 body {
-    background: url(/arquivos/img/landscape-5584652_1280.jpg);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #0000009d;
 }
 
+
+
+
+#particles-js {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Ensures particles are behind other content */
+}
+
+
+
+
+.todo-container {
+    position: absolute;
+    z-index: 1;
+    max-width: 450px;
+    margin: 3rem auto;
+    background-color:  #352e2eaf;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px 0px #00000031;
+}
+
+
+
+#todo-input {
+    color: #0000008e;
+}
+
+
 button {
-    background-color: #e2deded7;
-    color: #000000;
-    border: 2px solid #000000;
+    background-color: #adadadd7;
+    color: #ffff;
     padding: .3rem .6rem;
     font-size: 1rem;
     cursor: pointer;
@@ -28,14 +62,18 @@ button {
     transition: 0.4s;
 }
 
+
+
 button:hover {
-    background-color: #aa5d00;
+    background-color: #000000;
     color: #ffffff;
 }
+
 
 button:hover > i {
     color: #ffffff;
 }
+
 
 button i {
     color: #000000;
@@ -47,33 +85,27 @@ input, select {
     padding: 0.25rem 0.5rem;
 }
 
+
 .hide {
     display: none;
 }
 
    /*Todo header*/
 
-.todo-container {
-    max-width: 450px;
-    margin: 3rem auto;
-    background-color:  #e2dede4c;
-    padding: 1.5rem;
-    border-radius: 15px;
-    box-shadow: 0px 0px 4px 0px #00000031;
-}
 
 .todo-container header {
     text-align: center;
     padding: 0 1rem 1rem;
-    border-bottom: 1px solid #0000005a;
+    border-bottom: 1px solid #ffffff59;
 }
 
     /*Todo form*/
 
 #todo-form, #edit-form {
     padding: 1rem;
-    border-bottom: 1px solid #0000005a;
+    border-bottom: 1px solid #ffffff59;
 }
+
 
 #todo-form p, #edit-form p {
     margin-bottom: .5rem;
@@ -97,7 +129,6 @@ input, select {
 
 #toolbar {
     padding: 1rem;
-    border-bottom: 1px solid #0000005a;
     display: flex;
 }
 
@@ -106,7 +137,7 @@ input, select {
 }
 
 #search {
-    border-right: 1px solid #0000005a;
+    border-right: 1px solid #ffffff59;
     padding-right: 1rem;
     margin-right: 1rem;
     width: 65%;
@@ -127,11 +158,12 @@ input, select {
     width: 35%;
     display: flex;
     flex-direction: column;
+    color: #000000;
 }
 
 #filter select {
     flex: 1;
-
+    color: #000000;
 }
 
     /*Todo List*/
@@ -141,7 +173,7 @@ input, select {
     justify-content: space-around;
     align-items: center;
     padding: 1rem; 
-    border: 1px solid #0000005a;   
+    border: 1px solid #ffffff59;   
     transition: .3s;
 
 }
@@ -157,8 +189,11 @@ input, select {
 }
 
 .done {
-    background-color: #aa5e00a7;
+    background-color: black;
 }
+
+
+
 
 .done h3 {
     color: white;

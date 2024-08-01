@@ -123,3 +123,40 @@ editForm.addEventListener("submit", (e) => {
 
     toggleForms()
 })
+
+
+
+particlesJS('particles-js', {
+    particles: {
+        number: { value: 100 },
+        size: { value: 3 },
+        color: { value: "#ffffff" },
+        move: { speed: 2 },
+        line_linked: {
+            enable: true,
+            distance: 150,
+            color: "#ffffff",
+            opacity: 0.4,
+            width: 1
+        }
+    },
+    interactivity: {
+        events: {
+            onhover: {
+                enable: true,
+                mode: "repulse" // Opções: "grab", "bubble", "repulse"
+            },
+            onclick: {
+                enable: true,
+                mode: "push" // Opções: "push", "remove", "bubble", "repulse"
+            }
+        },
+        modes: {
+            repulse: {
+                distance: 100,
+                duration: 0.4
+            }
+        }
+    }
+});
+
