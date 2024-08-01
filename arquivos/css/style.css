@@ -152,6 +152,7 @@ input, select {
 #search input {
     width: 100%;
     margin-right: 0.3rem;
+    color: #000000;
 }
 
 #filter {
@@ -165,6 +166,18 @@ input, select {
     flex: 1;
     color: #000000;
 }
+
+
+
+#filter select  option {
+    color: #000000;
+}
+ 
+
+#edit-input {
+    color: #000000;
+}
+
 
     /*Todo List*/
 
